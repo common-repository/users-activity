@@ -1,0 +1,42 @@
+/* List Activity style */
+ul#ua-activity-list {
+	padding:0 0 10px 10px;
+}
+ul#ua-activity-list li {    
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: normal;    
+    padding-left: 18px;
+}
+ul#ua-activity-list .ago {
+    font-style: italic;
+}
+.ua-users-activity:before {
+	font: normal 20px/1 'dashicons';
+    float: left;
+    margin-left: -25px;
+    margin-top: 0;
+    content: "\f111";
+    -webkit-font-smoothing: antialiased;
+}
+.ua-users-post:before {
+	content: "\f123";
+}
+.ua-users-comment:before {
+	content: "\f125";
+}
+.ua-users-register:before {
+	content: "\f110";
+}
+
+.ua-panel {
+	margin-top:45px;
+	padding: 0 15px;
+	background: #fff;
+}
+.ua-usaers-table th#username {
+	width: 200px;
+}
+.ua-usaers-table th#date{
+	width: 200px;
+}
